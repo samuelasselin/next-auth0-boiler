@@ -1,0 +1,52 @@
+{
+  "name": "@devias-kit-pro/next-app",
+  "version": "6.4.0",
+  "author": "Devias",
+  "homepage": "https://devias.io",
+  "private": true,
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "2.0.4",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "5.13.0",
+    "@mui/system": "5.12.3",
+    "@mui/x-date-pickers": "6.4.0",
+    "@untitled-ui/icons-react": "0.1.1",
+    "axios": "^1.4.0",
+    "date-fns": "2.30.0",
+    "i18next": "22.4.15",
+    "js-cookie": "3.0.5",
+    "lodash": "^4.17.21",
+    "lodash.isequal": "4.5.0",
+    "next": "13.4.2",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-i18next": "12.2.2",
+    "react-syntax-highlighter": "15.5.0",
+    "remove": "^0.1.5",
+    "simplebar-react": "^3.2.4",
+    "stylis": "4.2.0",
+    "stylis-plugin-rtl": "2.1.1",
+    "tss-react": "4.8.3"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "8.0.1",
+    "@types/js-cookie": "3.0.3",
+    "@types/lodash.isequal": "4.5.6",
+    "@types/node": "^20.4.2",
+    "@types/numeral": "2.0.2",
+    "@types/react": "18.2.6",
+    "@types/react-syntax-highlighter": "15.5.6",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "typescript": "5.0.4"
+  }
+}
