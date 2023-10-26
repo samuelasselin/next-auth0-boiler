@@ -194,14 +194,14 @@ export const AuthProvider: FC<AuthProviderProps> = (props) => {
         []
     );
 
-    // const getDatabaseUser = async (email: string | undefined, auth0UserId: string | undefined, token: string) => {
-    //     if (email && auth0UserId) {
-    //         return await apiPost('/user', {
-    //             email: email,
-    //             auth0_id: auth0UserId
-    //         })
-    //     }
-    // }
+    const getDatabaseUser = async (email: string | undefined, auth0UserId: string | undefined, token: string) => {
+         if (email && auth0UserId) {
+             return await apiPost('/user', {
+                 email: email,
+                 auth0_id: auth0UserId
+             })
+         }
+     }
 
 
     return (
